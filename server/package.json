@@ -1,0 +1,50 @@
+{
+  "name": "shopping-cart-server",
+  "version": "1.0.0",
+  "description": "Shopping Cart API Server - ASE Challenge",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --verbose",
+    "test:watch": "jest --watch --verbose",
+    "test:coverage": "jest --coverage --verbose",
+    "lint": "eslint src --ext .js",
+    "lint:fix": "eslint src --ext .js --fix",
+    "format": "prettier --write \"src/**/*.js\"",
+    "format:check": "prettier --check \"src/**/*.js\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.10.0",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.28.3",
+    "@eslint/js": "^9.7.0",
+    "babel-jest": "^29.7.0",
+    "cross-env": "^10.1.0",
+    "eslint": "^9.7.0",
+    "jest": "^29.6.2",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.0.0",
+    "supertest": "^6.3.3"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "nodejs",
+    "rest",
+    "shopping-cart",
+    "backend"
+  ],
+  "author": "Prasad Waster",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Headphones",
+    "price": 79.99,
+    "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&fit=crop&crop=center",
+    "description": "Premium quality wireless headphones with noise cancellation and 30-hour battery life.",
+    "category": "Electronics",
+    "stock": 45,
+    "rating": 4.5
+  },
+  {
+    "id": "2",
+    "name": "Organic Cotton T-Shirt",
+    "price": 24.99,
+    "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=300&h=300&fit=crop&crop=center",
+    "description": "Comfortable and sustainable organic cotton t-shirt available in multiple colors.",
+    "category": "Clothing",
+    "stock": 120,
+    "rating": 4.3
+  },
+  {
+    "id": "3",
+    "name": "Smart Fitness Watch",
+    "price": 199.99,
+    "imageUrl": "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=300&h=300&fit=crop&crop=center",
+    "description": "Advanced fitness tracking with heart rate monitoring, GPS, and smartphone integration.",
+    "category": "Electronics",
+    "stock": 28,
+    "rating": 4.7
+  },
+  {
+    "id": "4",
+    "name": "Artisan Coffee Beans",
+    "price": 18.5,
+    "imageUrl": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=300&h=300&fit=crop&crop=center",
+    "description": "Freshly roasted single-origin coffee beans from sustainable farms in Colombia.",
+    "category": "Food & Beverages",
+    "stock": 85,
+    "rating": 4.8
+  },
+  {
+    "id": "5",
+    "name": "Leather Laptop Bag",
+    "price": 89.99,
+    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300&h=300&fit=crop&crop=center",
+    "description": "Handcrafted genuine leather laptop bag with multiple compartments and adjustable strap.",
+    "category": "Accessories",
+    "stock": 32,
+    "rating": 4.6
+  },
+  {
+    "id": "6",
+    "name": "Indoor Plant Trio",
+    "price": 34.99,
+    "imageUrl": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=300&h=300&fit=crop&crop=center",
+    "description": "Set of three low-maintenance indoor plants perfect for home or office decoration.",
+    "category": "Home & Garden",
+    "stock": 67,
+    "rating": 4.4
+  },
+  {
+    "id": "7",
+    "name": "Wireless Phone Charger",
+    "price": 29.99,
+    "imageUrl": "https://images.unsplash.com/photo-1609081219090-a6d81d3085bf?w=300&h=300&fit=crop&crop=center",
+    "description": "Fast wireless charging pad compatible with all Qi-enabled devices. Sleek design.",
+    "category": "Electronics",
+    "stock": 95,
+    "rating": 4.2
+  },
+  {
+    "id": "8",
+    "name": "Yoga Mat Premium",
+    "price": 45.99,
+    "imageUrl": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=300&h=300&fit=crop&crop=center",
+    "description": "Non-slip, eco-friendly yoga mat with superior cushioning and durability.",
+    "category": "Sports & Fitness",
+    "stock": 78,
+    "rating": 4.5
+  },
+  {
+    "id": "9",
+    "name": "Stainless Steel Water Bottle",
+    "price": 22.99,
+    "imageUrl": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=300&h=300&fit=crop&crop=center",
+    "description": "Double-wall insulated water bottle that keeps drinks cold for 24h or hot for 12h.",
+    "category": "Sports & Fitness",
+    "stock": 156,
+    "rating": 4.6
+  },
+  {
+    "id": "10",
+    "name": "Bluetooth Speaker",
+    "price": 54.99,
+    "imageUrl": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=300&h=300&fit=crop&crop=center",
+    "description": "Portable waterproof Bluetooth speaker with 360-degree sound and 12-hour battery.",
+    "category": "Electronics",
+    "stock": 41,
+    "rating": 4.4
+  }
+]

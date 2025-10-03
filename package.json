@@ -1,0 +1,46 @@
+{
+  "name": "shopping-cart-ase",
+  "version": "1.0.0",
+  "description": "Professional Shopping Cart - ASE Challenge",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "build": "cd client && npm run build",
+    "test": "concurrently \"npm run test:server\" \"npm run test:client\"",
+    "test:client": "cd client && npm test",
+    "test:server": "cd server && npm test",
+    "test:watch": "concurrently \"npm run test:server -- --watch\" \"npm run test:client -- --watch\"",
+    "test:coverage": "concurrently \"npm run test:server -- --coverage\" \"npm run test:client -- --coverage\"",
+    "lint": "concurrently \"npm run lint:server\" \"npm run lint:client\"",
+    "lint:client": "cd client && npm run lint",
+    "lint:server": "cd server && npm run lint",
+    "lint:fix": "concurrently \"npm run lint:server -- --fix\" \"npm run lint:client -- --fix\"",
+    "format": "concurrently \"npm run format:server\" \"npm run format:client\"",
+    "format:client": "cd client && npm run format",
+    "format:server": "cd server && npm run format",
+    "setup": "npm install && cd client && npm install && cd ../server && npm install",
+    "clean": "rm -rf node_modules client/node_modules server/node_modules client/dist"
+  },
+  "keywords": [
+    "shopping-cart",
+    "react",
+    "express",
+    "nodejs",
+    "vite",
+    "tailwind",
+    "ecommerce",
+    "fullstack"
+  ],
+  "author": "ASE Challenge Candidate",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
