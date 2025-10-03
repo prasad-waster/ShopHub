@@ -55,8 +55,8 @@ The project demonstrates a complete e-commerce workflow with a **RESTful backend
 
 Clone the repository:
 \`\`\`bash
-git clone https://github.com/yourusername/shopping-cart-ase.git
-cd shopping-cart-ase
+git clone https://github.com/prasad-waster/ShopHub.git
+cd ShopHub
 \`\`\`
 
 Install dependencies:
